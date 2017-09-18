@@ -29,7 +29,7 @@ class Api::V1::Area1Controller < ApplicationController
 
   def area1_params
     # whitelist params'
-    params.permit(:time, :intime)
+    params.permit(:time, :intime, :outtime)
   end
 
   def set_todo
