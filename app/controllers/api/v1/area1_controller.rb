@@ -7,7 +7,7 @@ class Api::V1::Area1Controller < ApplicationController
   end
 
   def create
-    @area1 = Area1.create!(todo_params)
+    @area1 = Area1.create!(area1_params)
     json_response(@area1, :created)
   end
 
@@ -16,7 +16,7 @@ class Api::V1::Area1Controller < ApplicationController
   end
 
   def update
-    @area1.update(todo_params)
+    @area1.update(area1_params)
     head :no_content
   end
 
@@ -27,9 +27,9 @@ class Api::V1::Area1Controller < ApplicationController
 
   private
 
-  def todo_params
+  def area1_params
     # whitelist params'
-    params.permit(:time)
+    params.permit(:time, :intime)
   end
 
   def set_todo

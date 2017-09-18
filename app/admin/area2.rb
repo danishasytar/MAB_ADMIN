@@ -4,7 +4,7 @@ ActiveAdmin.register Area2 do
 	permit_params :time
 
 	index :title => 'Area 2' do
-		selectable_column
+		# selectable_column
 		id_column
 		column :time
 	end	
