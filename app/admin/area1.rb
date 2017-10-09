@@ -3,6 +3,8 @@ ActiveAdmin.register Area1 do
 	config.clear_action_items!
 	permit_params :time
 
+	
+
 	index :title => 'Area 1' do
 		# selectable_column
 		column "ID", :id do |thing|
@@ -13,4 +15,8 @@ ActiveAdmin.register Area1 do
 		column "Time Out", :outtime
 
 	end	
+
+
+
+	
 end
