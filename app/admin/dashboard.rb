@@ -26,6 +26,13 @@ ActiveAdmin.register_page "Dashboard" do
         panel "Info" do
           para "Welcome to ActiveAdmin."
         end
+
+        panel "Time Chart" do 
+            @area = Area1.order(:id)
+            result = [{name: "Time", data: @area.pluck(:id, :time)}]
+            
+            line_chart result
+        end 
     # end
     
   end # content
