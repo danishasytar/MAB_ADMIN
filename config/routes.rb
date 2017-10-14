@@ -11,4 +11,6 @@ Rails.application.routes.draw do
   	end
   	
   end
+  root 'admin/dashboard#index'
+  
 end

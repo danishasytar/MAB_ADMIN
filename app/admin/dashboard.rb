@@ -27,7 +27,7 @@ ActiveAdmin.register_page "Dashboard" do
           para "Welcome to ActiveAdmin."
         end
 
-        panel "Time Chart" do 
+        panel "Recent Queue Activity @ Area 1" do 
             @area = Area1.order(:id)
             result = [{name: "Time", data: @area.pluck(:id, :time)}]
             
