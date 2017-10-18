@@ -59,12 +59,6 @@ ActiveRecord::Schema.define(version: 20170921103041) do
     t.string "timeout"
   end
 
-  create_table "area_1s", force: :cascade do |t|
-    t.string "time"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "timestamps", force: :cascade do |t|
     t.string "entrance"
     t.string "exit"
