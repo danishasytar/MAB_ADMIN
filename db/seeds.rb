@@ -9,8 +9,13 @@
 AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
 Area1.create!([
 	{time: 1234, intime: "Mon Oct 16 2017 08:16:26 GMT+0800 (MYT)", outtime: "Mon Oct 16 2017 08:26:26 GMT+0800 (MYT)"},
-	{time: 1234, intime: "Mon Oct 16 2017 08:16:26 GMT+0800 (MYT)", outtime: "Mon Oct 16 2017 08:26:26 GMT+0800 (MYT)"},
-	{time: 1234, intime: "Mon Oct 16 2017 08:16:26 GMT+0800 (MYT)", outtime: "Mon Oct 16 2017 08:26:26 GMT+0800 (MYT)"},
-	{time: 1234, intime: "Mon Oct 16 2017 08:16:26 GMT+0800 (MYT)", outtime: "Mon Oct 16 2017 08:26:26 GMT+0800 (MYT)"},
-	{time: 1234, intime: "Mon Oct 16 2017 08:16:26 GMT+0800 (MYT)", outtime: "Mon Oct 16 2017 08:26:26 GMT+0800 (MYT)"}
+	{time: 1240, intime: "Mon Oct 16 2017 08:16:26 GMT+0800 (MYT)", outtime: "Mon Oct 16 2017 08:26:26 GMT+0800 (MYT)"},
+	{time: 1300, intime: "Mon Oct 16 2017 08:16:26 GMT+0800 (MYT)", outtime: "Mon Oct 16 2017 08:26:26 GMT+0800 (MYT)"},
+	{time: 1300, intime: "Mon Oct 16 2017 08:16:26 GMT+0800 (MYT)", outtime: "Mon Oct 16 2017 08:26:26 GMT+0800 (MYT)"},
+	{time: 1500, intime: "Mon Oct 16 2017 08:16:26 GMT+0800 (MYT)", outtime: "Mon Oct 16 2017 08:26:26 GMT+0800 (MYT)"},
+	{time: 1600, intime: "Mon Oct 16 2017 08:16:26 GMT+0800 (MYT)", outtime: "Mon Oct 16 2017 08:26:26 GMT+0800 (MYT)"},
+	{time: 1550, intime: "Mon Oct 16 2017 08:16:26 GMT+0800 (MYT)", outtime: "Mon Oct 16 2017 08:26:26 GMT+0800 (MYT)"},
+	{time: 1530, intime: "Mon Oct 16 2017 08:16:26 GMT+0800 (MYT)", outtime: "Mon Oct 16 2017 08:26:26 GMT+0800 (MYT)"},
+	{time: 1630, intime: "Mon Oct 16 2017 08:16:26 GMT+0800 (MYT)", outtime: "Mon Oct 16 2017 08:26:26 GMT+0800 (MYT)"},
+	{time: 1350, intime: "Mon Oct 16 2017 08:16:26 GMT+0800 (MYT)", outtime: "Mon Oct 16 2017 08:26:26 GMT+0800 (MYT)"}
 ])
